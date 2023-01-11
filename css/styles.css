@@ -45,10 +45,10 @@ img {
 }
 .header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 28px;
   border: 1px solid #E7E9FC;
   background-color: #FFFFFF;
-
+   
 }
 
 .header-list {
@@ -96,8 +96,9 @@ img {
   position: relative;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
   color: var(--first-title-color);
   transition: color var(--transition-duration-and-func);
 }
@@ -112,7 +113,7 @@ img {
 
 .header-link.current::after {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 
   content: "";
@@ -121,8 +122,6 @@ img {
   height: 4px;
   background-color: #404BBF;
   border-radius: 2px;
- 
-
 }
 
 .heading-texte {
