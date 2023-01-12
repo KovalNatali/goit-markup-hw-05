@@ -44,6 +44,7 @@ img {
 
 }
 .header {
+  
   padding-top: 24px;
   padding-bottom: 24px;
   border: 1px solid #E7E9FC;
@@ -93,12 +94,12 @@ img {
 
 
 .header-link {
-  position: relative;
+  padding-bottom: 26px;
   font-weight: 500;
   font-size: 16px;
+  position: relative;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   color: var(--first-title-color);
   transition: color var(--transition-duration-and-func);
 }
@@ -108,6 +109,7 @@ img {
 }
 
 .header-link.current {
+
   color: var(--accent-color);
 }
 
@@ -120,8 +122,8 @@ img {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #404BBF;
   border-radius: 2px;
+  background-color: #404BBF;
 }
 
 .heading-texte {
